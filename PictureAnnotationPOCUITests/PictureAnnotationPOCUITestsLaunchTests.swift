@@ -1,9 +1,6 @@
 //
 //  PictureAnnotationPOCUITestsLaunchTests.swift
 //  PictureAnnotationPOCUITests
-//
-//  Created by jayesh kanzariya on 04/08/22.
-//
 
 import XCTest
 

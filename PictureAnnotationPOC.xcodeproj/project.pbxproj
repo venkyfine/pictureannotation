@@ -17,6 +17,8 @@
 		D0E87166289B993E0010A385 /* PictureAnnotationPOCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E87165289B993E0010A385 /* PictureAnnotationPOCTests.swift */; };
 		D0E87170289B993E0010A385 /* PictureAnnotationPOCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8716F289B993E0010A385 /* PictureAnnotationPOCUITests.swift */; };
 		D0E87172289B993E0010A385 /* PictureAnnotationPOCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E87171289B993E0010A385 /* PictureAnnotationPOCUITestsLaunchTests.swift */; };
+		D0E87180289B99DA0010A385 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E8717F289B99DA0010A385 /* UIViewController.swift */; };
+		D0E87183289B9C920010A385 /* ImageEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E87182289B9C920010A385 /* ImageEditingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		D0E8716B289B993E0010A385 /* PictureAnnotationPOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureAnnotationPOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E8716F289B993E0010A385 /* PictureAnnotationPOCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureAnnotationPOCUITests.swift; sourceTree = "<group>"; };
 		D0E87171289B993E0010A385 /* PictureAnnotationPOCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureAnnotationPOCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D0E8717F289B99DA0010A385 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		D0E87182289B9C920010A385 /* ImageEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEditingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +107,8 @@
 			children = (
 				D0E8714B289B993D0010A385 /* AppDelegate.swift */,
 				D0E8714D289B993D0010A385 /* SceneDelegate.swift */,
-				D0E8714F289B993D0010A385 /* ViewController.swift */,
+				D0E8717E289B99A70010A385 /* Extension */,
+				D0E87181289B9C7F0010A385 /* ViewController */,
 				D0E87151289B993D0010A385 /* Main.storyboard */,
 				D0E87157289B993E0010A385 /* Assets.xcassets */,
 				D0E87159289B993E0010A385 /* LaunchScreen.storyboard */,
@@ -128,6 +133,23 @@
 				D0E87171289B993E0010A385 /* PictureAnnotationPOCUITestsLaunchTests.swift */,
 			);
 			path = PictureAnnotationPOCUITests;
+			sourceTree = "<group>";
+		};
+		D0E8717E289B99A70010A385 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D0E8717F289B99DA0010A385 /* UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		D0E87181289B9C7F0010A385 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D0E8714F289B993D0010A385 /* ViewController.swift */,
+				D0E87182289B9C920010A385 /* ImageEditingViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +285,10 @@
 			files = (
 				D0E87150289B993D0010A385 /* ViewController.swift in Sources */,
 				D0E8714C289B993D0010A385 /* AppDelegate.swift in Sources */,
+				D0E87183289B9C920010A385 /* ImageEditingViewController.swift in Sources */,
 				D0E87156289B993D0010A385 /* PictureAnnotationPOC.xcdatamodeld in Sources */,
 				D0E8714E289B993D0010A385 /* SceneDelegate.swift in Sources */,
+				D0E87180289B99DA0010A385 /* UIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

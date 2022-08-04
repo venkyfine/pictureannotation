@@ -1,9 +1,6 @@
 //
 //  PictureAnnotationPOCTests.swift
 //  PictureAnnotationPOCTests
-//
-//  Created by jayesh kanzariya on 04/08/22.
-//
 
 import XCTest
 @testable import PictureAnnotationPOC
